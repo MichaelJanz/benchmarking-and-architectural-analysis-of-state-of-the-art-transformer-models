@@ -1,0 +1,1 @@
+{"n_params": 406290432, "mp": 406.290432, "grad_mp": 201.562112, "_step": 2, "_runtime": 4, "_timestamp": 1607079293, "lr_group_0": 3e-05, "lr_group_1": 3e-05, "global_step": 0, "loss": 5.374378204345703, "tpb": 1524, "epoch": 0}

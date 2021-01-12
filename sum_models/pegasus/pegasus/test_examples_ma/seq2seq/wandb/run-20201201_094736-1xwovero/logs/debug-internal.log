@@ -1,0 +1,150 @@
+2020-12-01 09:47:36,886 INFO    MainThread:32134 [internal.py:wandb_internal():63] W&B internal server running at pid: 32134
+2020-12-01 09:47:36,887 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: check_version
+2020-12-01 09:47:36,887 INFO    WriterThread:32134 [datastore.py:open_for_write():76] open: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/run-1xwovero.wandb
+2020-12-01 09:47:36,888 DEBUG   SenderThread:32134 [sender.py:send():90] send: header
+2020-12-01 09:47:36,888 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:36,888 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: check_version
+2020-12-01 09:47:36,890 DEBUG   Thread-4  :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-01 09:47:36,936 DEBUG   Thread-4  :32134 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-12-01 09:47:36,952 DEBUG   SenderThread:32134 [sender.py:send():90] send: run
+2020-12-01 09:47:36,953 INFO    SenderThread:32134 [sender.py:_maybe_setup_resume():281] checking resume status for None/finetune_ds_overlap/1xwovero
+2020-12-01 09:47:36,955 DEBUG   SenderThread:32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:37,188 DEBUG   SenderThread:32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:37,191 DEBUG   SenderThread:32134 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-01 09:47:37,200 DEBUG   SenderThread:32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:37,580 DEBUG   SenderThread:32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:37,583 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: run_start
+2020-12-01 09:47:37,584 INFO    SenderThread:32134 [dir_watcher.py:__init__():165] watching files in: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files
+2020-12-01 09:47:37,584 INFO    SenderThread:32134 [sender.py:_start_run_threads():490] run started: 1xwovero with start time 1606812456
+2020-12-01 09:47:37,584 DEBUG   SenderThread:32134 [sender.py:send():90] send: summary
+2020-12-01 09:47:37,585 INFO    SenderThread:32134 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-01 09:47:37,592 DEBUG   HandlerThread:32134 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-01 09:47:37,598 DEBUG   HandlerThread:32134 [cmd.py:execute():719] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers, universal_newlines=False, shell=None, istream=None)
+2020-12-01 09:47:37,660 DEBUG   SenderThread:32134 [sender.py:send():90] send: files
+2020-12-01 09:47:37,660 INFO    SenderThread:32134 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-01 09:47:37,661 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: status
+2020-12-01 09:47:37,661 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:37,661 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: status
+2020-12-01 09:47:37,663 DEBUG   SenderThread:32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:37,665 DEBUG   Thread-11 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:37,903 DEBUG   SenderThread:32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:37,905 DEBUG   SenderThread:32134 [sender.py:send():90] send: config
+2020-12-01 09:47:37,909 DEBUG   SenderThread:32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:37,920 DEBUG   Thread-11 :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:37,923 DEBUG   Thread-11 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 09:47:38,169 DEBUG   SenderThread:32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:38,329 DEBUG   Thread-11 :32134 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/michaeljanz/finetune_ds_overlap/1xwovero/wandb-metadata.json?Expires=1606898857&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=IEP1Q%2F2wqFztbdmOMJWUuva%2Fb98OMFtJxCKLXhoubLcD9i9VQvvw8XUuPDGXYj7tvdUJt3P8g%2F0mKpIzena2ocZ1Dj7Ztrs1g60N%2BhiJqxbkiL4ufrL8ps8v8h6VZ2yWkBlXEaf1KO3Fc%2BunLG8CknY7CHyeyOzdheG28NKl2I%2FtIXgife8oACTdPOXhLQCMvYTURZ6VaTx56Q0gG%2BOIH4wFo6tj8aKJj9%2BgrFIX6D3smG7r0I9YuszK%2Bts%2BMnb%2BesQzE2C68YlXrzh9oW3p7Sy35Ey%2Bit3Lj5B54lZ7gVMXJod%2B1cc8ytveVRLsOfCLrXekZRHJrZyxpw7fdRMBiA%3D%3D HTTP/1.1" 200 0
+2020-12-01 09:47:38,330 INFO    Thread-11 :32134 [upload_job.py:push():131] Uploaded file /tmp/tmppi1qk07gwandb/3t0i51t8-wandb-metadata.json
+2020-12-01 09:47:38,492 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-01 09:47:38,492 DEBUG   SenderThread:32134 [sender.py:send():90] send: exit
+2020-12-01 09:47:38,492 INFO    SenderThread:32134 [sender.py:send_exit():168] handling exit code: 1
+2020-12-01 09:47:38,492 INFO    SenderThread:32134 [sender.py:send_exit():176] send defer
+2020-12-01 09:47:38,492 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,492 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: poll_exit
+2020-12-01 09:47:38,492 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,493 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-01 09:47:38,493 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,493 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,493 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-01 09:47:38,493 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 1
+2020-12-01 09:47:38,493 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,493 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-01 09:47:38,546 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,546 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,546 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-01 09:47:38,546 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 2
+2020-12-01 09:47:38,547 DEBUG   SenderThread:32134 [sender.py:send():90] send: stats
+2020-12-01 09:47:38,547 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,547 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-01 09:47:38,547 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,547 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,547 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-01 09:47:38,547 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 3
+2020-12-01 09:47:38,547 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,547 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-01 09:47:38,548 DEBUG   SenderThread:32134 [sender.py:send():90] send: summary
+2020-12-01 09:47:38,548 INFO    SenderThread:32134 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-01 09:47:38,548 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,548 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,548 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-01 09:47:38,548 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 4
+2020-12-01 09:47:38,548 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,548 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-01 09:47:38,548 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,548 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,548 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-01 09:47:38,548 INFO    SenderThread:32134 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-01 09:47:38,586 INFO    SenderThread:32134 [dir_watcher.py:_on_file_modified():226] file/dir modified: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/config.yaml
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:_on_file_created():213] file/dir created: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/requirements.txt
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:_on_file_created():213] file/dir created: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/wandb-metadata.json
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:_on_file_created():213] file/dir created: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/wandb-summary.json
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:_on_file_created():213] file/dir created: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/output.log
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:finish():309] scan: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files
+2020-12-01 09:47:38,587 INFO    SenderThread:32134 [dir_watcher.py:finish():315] scan save: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/config.yaml config.yaml
+2020-12-01 09:47:38,588 INFO    SenderThread:32134 [dir_watcher.py:finish():315] scan save: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/output.log output.log
+2020-12-01 09:47:38,590 DEBUG   Thread-12 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:38,590 INFO    SenderThread:32134 [dir_watcher.py:finish():315] scan save: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/requirements.txt requirements.txt
+2020-12-01 09:47:38,590 INFO    SenderThread:32134 [dir_watcher.py:finish():315] scan save: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/wandb-metadata.json wandb-metadata.json
+2020-12-01 09:47:38,590 INFO    SenderThread:32134 [dir_watcher.py:finish():315] scan save: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/wandb-summary.json wandb-summary.json
+2020-12-01 09:47:38,595 DEBUG   Thread-13 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:38,596 DEBUG   Thread-14 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:38,596 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 5
+2020-12-01 09:47:38,598 DEBUG   Thread-15 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:38,598 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,598 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-01 09:47:38,598 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,598 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,598 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-01 09:47:38,599 INFO    SenderThread:32134 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-01 09:47:38,599 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 6
+2020-12-01 09:47:38,599 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:38,599 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-01 09:47:38,599 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:38,599 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:38,599 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-01 09:47:38,600 DEBUG   Thread-5  :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 09:47:38,858 DEBUG   Thread-15 :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:38,861 DEBUG   Thread-15 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 09:47:38,879 DEBUG   Thread-13 :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:38,882 DEBUG   Thread-13 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 09:47:38,885 DEBUG   Thread-14 :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:38,886 DEBUG   Thread-12 :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 09:47:38,889 DEBUG   Thread-14 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 09:47:38,891 DEBUG   Thread-12 :32134 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 09:47:38,901 DEBUG   Thread-5  :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/michaeljanz/finetune_ds_overlap/1xwovero/file_stream HTTP/1.1" 200 None
+2020-12-01 09:47:39,101 DEBUG   Thread-5  :32134 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/michaeljanz/finetune_ds_overlap/1xwovero/file_stream HTTP/1.1" 200 None
+2020-12-01 09:47:39,102 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 7
+2020-12-01 09:47:39,103 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:39,103 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-01 09:47:39,103 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:39,103 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:39,103 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-01 09:47:39,103 INFO    SenderThread:32134 [sender.py:send_request_defer():221] send defer: 8
+2020-12-01 09:47:39,104 DEBUG   SenderThread:32134 [sender.py:send():90] send: final
+2020-12-01 09:47:39,104 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 09:47:39,104 DEBUG   SenderThread:32134 [sender.py:send():90] send: footer
+2020-12-01 09:47:39,104 INFO    HandlerThread:32134 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-01 09:47:39,104 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:39,104 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: defer
+2020-12-01 09:47:39,104 INFO    SenderThread:32134 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-01 09:47:39,196 DEBUG   Thread-13 :32134 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/michaeljanz/finetune_ds_overlap/1xwovero/output.log?Expires=1606898858&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=gmiz5ZtSdCnDZ1GuRcKXImH9mauXvhC1rvsn01enX0yOpiiZonzV7i3svRKHlPVQ7tJXj4BVh7g6SURv1FDJgXWtwU82N4mHd8HRJFZTjiEiFSWpyd%2B%2B%2Brai4kTfj2RxwmaT2ftUBvcut4N4tcPCvuPJyHQNL7aPMHS%2FY3TaM6RsjXQe5gd%2BmotWEupPSE%2FkkLNxZTeYzS%2BPcScA3Sf8vzfNW67PaPdptT9HxebyKk%2FA5GCtX7%2BhrgMbT4DhPfrCYoQaDAITgcGQyKRnHTQlDKtEsTBv0CPR%2BWXra2xkT5KBo7%2BAOi1%2Ftcp4Rqe2XAPz37E%2F%2Bx3FZ2DUURzdqcyvqw%3D%3D HTTP/1.1" 200 0
+2020-12-01 09:47:39,197 INFO    Thread-13 :32134 [upload_job.py:push():131] Uploaded file /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/output.log
+2020-12-01 09:47:39,201 DEBUG   Thread-12 :32134 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/michaeljanz/finetune_ds_overlap/1xwovero/config.yaml?Expires=1606898858&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=N1uUpJII4qiXR1ABhIH8C2N1aDQIwUFchwPM81dgW1DBTymn3yhVyCXKQ4fw2umpj0bxfCAERKbODNv5dNxKgTjcFRE%2FSNCZk8XaMXrG%2BwPSQ5sVPm1h%2FN22elvSBzqDqcFKJCjp4T2Br1kUHTI%2BXy%2FZA6SCqAD0fhnoDFXqH2my5N6X3VNpMK0f2We4A3gf3inPGADMpVcJM2zUK5O%2B2orpn5BwxcQKpHJFZ9seD9QgPS2IQu60xfqNzLw7qGodCyizsvHwVBci98nuTY1t4SW5YQ%2BL4k%2FWlrS90Hx4oTTGhaygUV2XQh0%2BNx8IH2UxwUP6NRI%2FbS5LQf65hC0%2B0Q%3D%3D HTTP/1.1" 200 0
+2020-12-01 09:47:39,202 INFO    Thread-12 :32134 [upload_job.py:push():131] Uploaded file /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/config.yaml
+2020-12-01 09:47:39,242 DEBUG   Thread-15 :32134 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/michaeljanz/finetune_ds_overlap/1xwovero/wandb-summary.json?Expires=1606898858&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Hi71MmmpRaa0e16UNqmX%2BxYUSq3EcQNGrjaHp5TFws3fxLO6pX4Gb%2BiZKmwucosutjHasMs6JsW5ERrRtk%2F5ojJbjFkKVBWa7CbZTRKEoSIpi1eonbaiWF5i6I0faTsAJd0XlCtHUP5devjDxzgOXfA959SPec3fLpraNftKupzIcit4jEIQMTwbD%2BgkuJltVjEUMVUfXRYsQdChNn6qjTIEH3CVSP4aOdzlPu0NubI2tLG5i6c%2FG2xDWc2W443IGt9bSR17DvKBWe78WvNxIA8GRuxWTsWzvwAzuRmpWoI2BxnZ7dZZ8o1E3BRG9YiCm6MPUwzL7o7ykXYC7DCXig%3D%3D HTTP/1.1" 200 0
+2020-12-01 09:47:39,243 INFO    Thread-15 :32134 [upload_job.py:push():131] Uploaded file /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/wandb-summary.json
+2020-12-01 09:47:39,288 DEBUG   Thread-14 :32134 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/michaeljanz/finetune_ds_overlap/1xwovero/requirements.txt?Expires=1606898858&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Caau2b4Sw60SXuBu6JX3%2F%2FVC66nRnpnx0tXq%2BBqIqosBA6ntB46T%2BYOU9c0Q0KJN%2BWHhHFsuBr9vAbN7Gq1e11JzxZJZ8WzMnFxaDk2Lx9E8zaILBGZm7fGnxPOgrcyA68A%2BGntOdi50pDhtxMWNvxkEWVCe9TO58NFTkccoFeC33OMj82kaisAhBfxm5ICuvZX9JYJ%2FHXAJPngFdAYglvexs0Y1x0KN2VjqwVmhUCzAoh9aZQzJPYqprQND2LY3oJplUDWl%2FgXiADQubI5QJdmZ2eyZBtpt6n5HKVbaZaTDOhzOp10tZVNF%2FKTfmqJ037k9ScB%2BdPIPol2MyzmS1A%3D%3D HTTP/1.1" 200 0
+2020-12-01 09:47:39,289 INFO    Thread-14 :32134 [upload_job.py:push():131] Uploaded file /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/files/requirements.txt
+2020-12-01 09:47:40,495 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-01 09:47:40,495 DEBUG   SenderThread:32134 [sender.py:send():90] send: request
+2020-12-01 09:47:40,495 DEBUG   SenderThread:32134 [sender.py:send_request():99] send_request: poll_exit
+2020-12-01 09:47:40,495 INFO    SenderThread:32134 [file_pusher.py:join():174] waiting for file pusher
+2020-12-01 09:47:40,496 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-01 09:47:40,496 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-01 09:47:40,497 DEBUG   HandlerThread:32134 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-01 09:47:40,497 INFO    HandlerThread:32134 [handler.py:finish():271] shutting down handler
+2020-12-01 09:47:41,104 INFO    WriterThread:32134 [datastore.py:close():257] close: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201201_094736-1xwovero/run-1xwovero.wandb
+2020-12-01 09:47:41,496 INFO    SenderThread:32134 [sender.py:finish():642] shutting down sender
+2020-12-01 09:47:41,496 INFO    SenderThread:32134 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-01 09:47:41,496 INFO    SenderThread:32134 [file_pusher.py:join():174] waiting for file pusher
+2020-12-01 09:47:41,496 INFO    MainThread:32134 [internal.py:handle_exit():138] Internal process exited

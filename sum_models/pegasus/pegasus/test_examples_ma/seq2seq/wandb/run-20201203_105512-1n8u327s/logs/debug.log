@@ -1,0 +1,104 @@
+2020-12-03 10:55:12,128 INFO    MainThread:8362 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-03 10:55:12,128 INFO    MainThread:8362 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-12-03 10:55:12,128 INFO    MainThread:8362 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-03 10:55:12,128 INFO    MainThread:8362 [wandb_init.py:_log_setup():303] Logging user logs to /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201203_105512-1n8u327s/logs/debug.log
+2020-12-03 10:55:12,128 INFO    MainThread:8362 [wandb_init.py:_log_setup():304] Logging internal logs to /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/wandb/run-20201203_105512-1n8u327s/logs/debug-internal.log
+2020-12-03 10:55:13,153 INFO    MainThread:8362 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-03 10:55:13,154 INFO    MainThread:8362 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.REDIRECT
+2020-12-03 10:55:13,154 INFO    MainThread:8362 [wandb_run.py:_redirect():1088] Redirecting console.
+2020-12-03 10:55:13,154 INFO    MainThread:8362 [redirect.py:install():204] install start
+2020-12-03 10:55:13,154 INFO    MainThread:8362 [redirect.py:install():219] install stop
+2020-12-03 10:55:13,154 INFO    MainThread:8362 [redirect.py:install():204] install start
+2020-12-03 10:55:13,155 INFO    MainThread:8362 [redirect.py:install():219] install stop
+2020-12-03 10:55:13,155 INFO    MainThread:8362 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-03 10:55:13,156 INFO    MainThread:8362 [wandb_run.py:_config_callback():547] config_cb None None {'_wandb': {'cli_version': '0.10.11', 'python_version': '3.7.9', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'huggingface_version': '3.1.0', 'framework': 'torch'}, 'logger': True, 'checkpoint_callback': True, 'early_stop_callback': False, 'default_root_dir': 'None', 'gradient_clip_val': 0, 'process_position': 0, 'num_nodes': 1, 'num_processes': 1, 'gpus': 1, 'auto_select_gpus': False, 'log_gpu_memory': 'None', 'progress_bar_refresh_rate': 1, 'overfit_batches': 0.0, 'track_grad_norm': -1, 'check_val_every_n_epoch': 1, 'fast_dev_run': False, 'accumulate_grad_batches': 1, 'max_epochs': 20, 'min_epochs': 1, 'max_steps': 'None', 'min_steps': 'None', 'limit_train_batches': 1.0, 'limit_val_batches': 1.0, 'limit_test_batches': 1.0, 'val_check_interval': 1.0, 'log_save_interval': 100, 'row_log_interval': 50, 'distributed_backend': 'None', 'precision': 32, 'print_nan_grads': False, 'weights_summary': 'top', 'weights_save_path': 'None', 'num_sanity_val_steps': 2, 'truncated_bptt_steps': 'None', 'resume_from_checkpoint': 'None', 'profiler': 'None', 'benchmark': False, 'deterministic': False, 'reload_dataloaders_every_epoch': False, 'auto_lr_find': False, 'replace_sampler_ddp': True, 'terminate_on_nan': False, 'auto_scale_batch_size': False, 'prepare_data_per_node': True, 'amp_level': 'O2', 'val_percent_check': 'None', 'test_percent_check': 'None', 'train_percent_check': 'None', 'overfit_pct': 'None', 'model_name_or_path': 'facebook/bart-large-cnn', 'config_name': '', 'tokenizer_name': 'None', 'cache_dir': '', 'encoder_layerdrop': 0.2, 'decoder_layerdrop': 'None', 'dropout': 'None', 'attention_dropout': 'None', 'learning_rate': 3e-05, 'lr_scheduler': 'linear', 'weight_decay': 0.0, 'adam_epsilon': 1e-08, 'warmup_steps': 0, 'num_workers': 4, 'train_batch_size': 1, 'eval_batch_size': 1, 'adafactor': False, 'output_dir': '/mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/bart_utest_output', 'fp16': False, 'fp16_opt_level': 'O2', 'do_train': True, 'do_predict': False, 'seed': 42, 'data_dir': './finetune_ds_overlap/', 'max_source_length': 1024, 'max_target_length': 500, 'val_max_target_length': 500, 'test_max_target_length': 500, 'freeze_encoder': True, 'freeze_embeds': True, 'sortish_sampler': False, 'logger_name': 'wandb', 'n_train': -1, 'n_val': 500, 'n_test': -1, 'task': 'summarization', 'label_smoothing': 0.0, 'src_lang': '', 'tgt_lang': '', 'eval_beams': 'None', 'val_metric': 'rouge2', 'eval_max_gen_length': 500, 'save_top_k': 1, 'early_stopping_patience': 15}
+2020-12-03 20:30:57,635 INFO    MainThread:8362 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [wandb_run.py:_restore():1160] restore
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:uninstall():223] uninstall start
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():278] _stop: stdout
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():284] _stop closed: stdout
+2020-12-03 20:30:57,636 INFO    stdout    :8362 [redirect.py:_pipe_relay():120] relay done saw last write: stdout
+2020-12-03 20:30:57,636 INFO    stdout    :8362 [redirect.py:_pipe_relay():136] relay done done: stdout
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():290] _stop joined: stdout
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():292] _stop rd closed: stdout
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:uninstall():227] uninstall done
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:uninstall():223] uninstall start
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():278] _stop: stderr
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():284] _stop closed: stderr
+2020-12-03 20:30:57,636 INFO    stderr    :8362 [redirect.py:_pipe_relay():120] relay done saw last write: stderr
+2020-12-03 20:30:57,636 INFO    stderr    :8362 [redirect.py:_pipe_relay():136] relay done done: stderr
+2020-12-03 20:30:57,636 INFO    MainThread:8362 [redirect.py:_stop():290] _stop joined: stderr
+2020-12-03 20:30:57,637 INFO    MainThread:8362 [redirect.py:_stop():292] _stop rd closed: stderr
+2020-12-03 20:30:57,637 INFO    MainThread:8362 [redirect.py:uninstall():227] uninstall done
+2020-12-03 20:30:57,638 INFO    MainThread:8362 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "4575538e10bf453fbaac7a76d08708be"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1723
+      total_bytes: 1723
+    }
+  }
+}
+
+2020-12-03 20:30:59,641 INFO    MainThread:8362 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "015caeb6a01748b8bd434072696c5773"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 1714430
+      total_bytes: 6392991
+    }
+  }
+}
+
+2020-12-03 20:31:01,642 INFO    MainThread:8362 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "f6adf4e47078423385ef827f2ecc1585"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 4262142
+      total_bytes: 6392991
+    }
+  }
+}
+
+2020-12-03 20:31:03,646 INFO    MainThread:8362 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "3a5c88c10f1e43a4aadc5ffa1c6c4aa5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 6392991
+      total_bytes: 6392991
+    }
+  }
+}
+
+2020-12-03 20:31:05,649 INFO    MainThread:8362 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "90ed56e7d5394eb7b8cf2cf7079da431"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 6392991
+      total_bytes: 6392991
+    }
+  }
+}
+
+2020-12-03 20:31:06,708 INFO    MainThread:8362 [wandb_run.py:_show_summary():1450] rendering summary
+2020-12-03 20:31:06,708 INFO    MainThread:8362 [wandb_run.py:_show_history():1488] rendering history
+2020-12-03 20:31:06,709 INFO    MainThread:8362 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-03 20:31:06,709 INFO    MainThread:8362 [internal.py:handle_exit():138] Internal process exited

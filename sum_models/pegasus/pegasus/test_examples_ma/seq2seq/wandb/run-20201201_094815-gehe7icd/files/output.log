@@ -1,0 +1,34 @@
+Validation sanity check: 0it [00:00, ?it/s]Traceback (most recent call last):
+  File "finetune.py", line 424, in <module>
+    main(args)
+  File "finetune.py", line 399, in main
+    logger=logger,
+  File "/mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/lightning_base.py", line 380, in generic_train
+    trainer.fit(model)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1003, in fit
+    results = self.single_gpu_train(model)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/pytorch_lightning/trainer/distrib_parts.py", line 186, in single_gpu_train
+    results = self.run_pretrain_routine(model)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/pytorch_lightning/trainer/trainer.py", line 1196, in run_pretrain_routine
+    False)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 291, in _evaluate
+    output = self.evaluation_forward(model, batch, batch_idx, dataloader_idx, test_mode)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/pytorch_lightning/trainer/evaluation_loop.py", line 470, in evaluation_forward
+    output = model.validation_step(*args)
+  File "finetune.py", line 181, in validation_step
+    return self._generative_step(batch)
+  File "finetune.py", line 224, in _generative_step
+    max_length=self.eval_max_length,
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/transformers/generation_utils.py", line 480, in generate
+    model_kwargs=model_kwargs,
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/transformers/generation_utils.py", line 656, in _generate_beam_search
+    outputs = self(**model_inputs, return_dict=True)  # (batch_size * num_beams, cur_len, vocab_size)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/transformers/modeling_bart.py", line 1079, in forward
+    lm_logits = F.linear(outputs[0], self.model.shared.weight, bias=self.final_logits_bias)
+  File "/home/science/anaconda3/envs/tr_pegasus_env/lib/python3.7/site-packages/torch/nn/functional.py", line 1676, in linear
+    output = input.matmul(weight.t())
+RuntimeError: CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 7.79 GiB total capacity; 6.36 GiB already allocated; 107.62 MiB free; 6.39 GiB reserved in total by PyTorch)

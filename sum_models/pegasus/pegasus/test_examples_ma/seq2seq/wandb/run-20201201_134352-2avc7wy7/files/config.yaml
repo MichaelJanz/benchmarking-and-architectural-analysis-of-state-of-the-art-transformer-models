@@ -1,0 +1,290 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.11
+    framework: torch
+    huggingface_version: 3.1.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.9
+accumulate_grad_batches:
+  desc: null
+  value: 1
+adafactor:
+  desc: null
+  value: false
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+amp_level:
+  desc: null
+  value: O2
+attention_dropout:
+  desc: null
+  value: None
+auto_lr_find:
+  desc: null
+  value: false
+auto_scale_batch_size:
+  desc: null
+  value: false
+auto_select_gpus:
+  desc: null
+  value: false
+benchmark:
+  desc: null
+  value: false
+cache_dir:
+  desc: null
+  value: ''
+check_val_every_n_epoch:
+  desc: null
+  value: 1
+checkpoint_callback:
+  desc: null
+  value: true
+config_name:
+  desc: null
+  value: ''
+data_dir:
+  desc: null
+  value: ./finetune_ds_overlap/
+decoder_layerdrop:
+  desc: null
+  value: None
+default_root_dir:
+  desc: null
+  value: None
+deterministic:
+  desc: null
+  value: false
+distributed_backend:
+  desc: null
+  value: None
+do_predict:
+  desc: null
+  value: false
+do_train:
+  desc: null
+  value: true
+dropout:
+  desc: null
+  value: None
+early_stop_callback:
+  desc: null
+  value: false
+early_stopping_patience:
+  desc: null
+  value: 3
+encoder_layerdrop:
+  desc: null
+  value: 0.2
+eval_batch_size:
+  desc: null
+  value: 1
+eval_beams:
+  desc: null
+  value: None
+eval_max_gen_length:
+  desc: null
+  value: None
+fast_dev_run:
+  desc: null
+  value: false
+fp16:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O2
+freeze_embeds:
+  desc: null
+  value: true
+freeze_encoder:
+  desc: null
+  value: true
+gpus:
+  desc: null
+  value: 1
+gradient_clip_val:
+  desc: null
+  value: 0
+label_smoothing:
+  desc: null
+  value: 0.0
+learning_rate:
+  desc: null
+  value: 3.0e-05
+limit_test_batches:
+  desc: null
+  value: 1.0
+limit_train_batches:
+  desc: null
+  value: 1.0
+limit_val_batches:
+  desc: null
+  value: 1.0
+log_gpu_memory:
+  desc: null
+  value: None
+log_save_interval:
+  desc: null
+  value: 100
+logger:
+  desc: null
+  value: true
+logger_name:
+  desc: null
+  value: wandb
+lr_scheduler:
+  desc: null
+  value: linear
+max_epochs:
+  desc: null
+  value: 10
+max_source_length:
+  desc: null
+  value: 1024
+max_steps:
+  desc: null
+  value: None
+max_target_length:
+  desc: null
+  value: 500
+min_epochs:
+  desc: null
+  value: 1
+min_steps:
+  desc: null
+  value: None
+model_name_or_path:
+  desc: null
+  value: facebook/bart-large-cnn
+n_test:
+  desc: null
+  value: -1
+n_train:
+  desc: null
+  value: -1
+n_val:
+  desc: null
+  value: 500
+num_nodes:
+  desc: null
+  value: 1
+num_processes:
+  desc: null
+  value: 1
+num_sanity_val_steps:
+  desc: null
+  value: 2
+num_workers:
+  desc: null
+  value: 4
+output_dir:
+  desc: null
+  value: /mnt/01D64EB52A75D220/Users/Science/Documents/Projekte/MA/sum_models/pegasus/pegasus/transformers/test_examples_ma/seq2seq/bart_utest_output
+overfit_batches:
+  desc: null
+  value: 0.0
+overfit_pct:
+  desc: null
+  value: None
+precision:
+  desc: null
+  value: 32
+prepare_data_per_node:
+  desc: null
+  value: true
+print_nan_grads:
+  desc: null
+  value: false
+process_position:
+  desc: null
+  value: 0
+profiler:
+  desc: null
+  value: None
+progress_bar_refresh_rate:
+  desc: null
+  value: 1
+reload_dataloaders_every_epoch:
+  desc: null
+  value: false
+replace_sampler_ddp:
+  desc: null
+  value: true
+resume_from_checkpoint:
+  desc: null
+  value: None
+row_log_interval:
+  desc: null
+  value: 50
+save_top_k:
+  desc: null
+  value: 1
+seed:
+  desc: null
+  value: 42
+sortish_sampler:
+  desc: null
+  value: false
+src_lang:
+  desc: null
+  value: ''
+task:
+  desc: null
+  value: summarization
+terminate_on_nan:
+  desc: null
+  value: false
+test_max_target_length:
+  desc: null
+  value: 500
+test_percent_check:
+  desc: null
+  value: None
+tgt_lang:
+  desc: null
+  value: ''
+tokenizer_name:
+  desc: null
+  value: None
+track_grad_norm:
+  desc: null
+  value: -1
+train_batch_size:
+  desc: null
+  value: 1
+train_percent_check:
+  desc: null
+  value: None
+truncated_bptt_steps:
+  desc: null
+  value: None
+val_check_interval:
+  desc: null
+  value: 1.0
+val_max_target_length:
+  desc: null
+  value: 500
+val_metric:
+  desc: null
+  value: rouge2
+val_percent_check:
+  desc: null
+  value: None
+warmup_steps:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.0
+weights_save_path:
+  desc: null
+  value: None
+weights_summary:
+  desc: null
+  value: top
